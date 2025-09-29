@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nomina</title>
+  <link rel="stylesheet" href="style/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <div class="calc-container">
+    <h1>Nomina</h1>
+
+    <div class="form-row">
+      <label for="idEmpleado">ID Empleado</label>
+      <input type="text" id="idEmpleado" placeholder="ID Empleado" >
+    </div>
+
+    <div class="form-row">
+      <label for="nombre">Nombre</label>
+      <input type="text" id="nombre" placeholder="Nombre" style="text-transform: capitalize;" >
+    </div>
+
+    <div class="form-row">
+      <label>Horas Trabajadas (semana)</label>
+      <input type="number" id="num1" placeholder="Horas trabajadas">
+    </div>
+
+    <div class="form-row">
+      <label >Costo por hora</label>
+      <input type="number" id="num2" placeholder="Costo por hora">
+    </div>
+
+    <div class="form-row">
+      <label >Horas Normales</label>
+      <input type="number" id="num5" value="40" placeholder="Horas Normales: 40 horas" readonly>
+    </div>
+
+    <div class="form-row">
+      <label >Horas Extras</label>
+      <input type="number" id="hextras" placeholder="Horas Extras" readonly>
+    </div>
+
+    <div class="form-row">
+      <label >Subtotal</label>
+      <input type="number" id="subtotal" placeholder="Subtotal" readonly>
+    </div>
+
+    <div class="form-row">
+      <label >ISPT (10%)</label>
+      <input type="number" id="ispt" placeholder="ISPT" readonly>
+    </div>
+
+    <div class="form-row">
+      <label >Monto a pagar</label>
+      <input type="number" id="monto" placeholder="Monto a pagar" readonly>
+    </div>
+
+    <div class="buttons">
+      <button onclick="calcularpago()">Calcular</button>
+      <button onclick="limpiar()">Limpiar</button>
+    </div>
+
+    <button class="regresar" onclick="window.location.href='../index.html'">Regresar</button>
+  </div>
+</body>
+</html>

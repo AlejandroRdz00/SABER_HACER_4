@@ -1,0 +1,63 @@
+/* Estilo del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #74ebd5, #ACB6E5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Contenedor del formulario */
+.container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Estilo de inputs */
+input[type="text"] {
+    padding: 10px;
+    margin: 10px 0;
+    width: 200px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+input[readonly] {
+    background-color: #f0f0f0;
+}
+
+/* Estilo del botón */
+button {
+    padding: 10px 20px;
+    background-color: #6a11cb;
+    background-image: linear-gradient(315deg, #6a11cb 0%, #2575fc 74%);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+.regresar {
+    background-color: #ff416c;
+    background-image: linear-gradient(315deg, #ff416c 0%, #ff4b2b 74%);
+    margin-top: 15px;
+}
+

@@ -1,0 +1,103 @@
+/* Body */
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #6dd5fa, #2980b9);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  min-height: 100vh;
+}
+
+/* Navbar */
+.navbar {
+  width: 100%;
+  background: #1f6390;
+  padding: 20px 0;
+  text-align: center;
+  color: white;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Contenedor de la calculadora/formulario */
+.calc-container {
+  background: #fff;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  text-align: center;
+  width: 350px;
+  margin: 30px 0;
+}
+
+/* Títulos */
+.calc-container h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Filas de inputs */
+.form-row {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #2980b9;
+  border-radius: 10px;
+  outline: none;
+  text-align: center;
+}
+
+input:focus {
+  border-color: #6dd5fa;
+}
+
+/* Botones */
+.buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+button {
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background: #2980b9;
+  color: white;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #1f6390;
+}
+
+.regresar {
+  width: 100%;
+  margin-top: 15px;
+  background: #e74c3c;
+}
+
+.regresar:hover {
+  background: #a52314;
+}
+
+/* Footer */
+.footer {
+  width: 100%;
+  background: #1f6390;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: auto;
+  box-shadow: 0 -4px 10px rgba(0,0,0,0.2);
+}
